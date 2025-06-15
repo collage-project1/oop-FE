@@ -1,0 +1,80 @@
+.gangjwa-container {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gangjwa-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.gangjwa-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+
+.button-td {
+  padding: 3px;
+}
+
+.gangjwa-table th,
+.gangjwa-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.gangjwa-table thead {
+  background-color: gainsboro;
+}
+
+.gangjwa-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* 버튼 스타일 */
+.miridamgi-button,
+.sincheong-button,
+.delete-button {
+  margin: 0px;
+  padding: 3px 5px;
+  font-size: 14px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.miridamgi-button {
+  margin-right: 3px;
+  background-color: #28a745;
+}
+
+.sincheong-button {
+  background-color: #007bff;
+}
+
+.delete-button {
+  margin-left: 3px;
+  background-color: #FF4C4C;
+}
+
+.miridamgi-button:hover {
+  background-color: #218838;
+}
+
+.sincheong-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-button:hover {
+  background-color: #D32F2F;
+}

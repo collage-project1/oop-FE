@@ -1,0 +1,62 @@
+.selection-panel {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+
+  .hakgwa-selection-panel {
+    display: flex;
+    gap: 10px;
+  }
+  .campus-panel {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .collage-panel {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: 10px;
+  }
+  .hakgwa-panel {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .gangjwa-selection-panel {
+    flex: 1;
+    padding: 0px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px; /* 아래쪽 패널과의 간격 */
+  }
+  
+  .register-panel {
+    width: 25%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 15px; /* 간격 추가 */
+    padding: 3px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    margin-bottom: 10px;
+  }
+  
